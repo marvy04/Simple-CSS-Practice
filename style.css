@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.firstFather{
+    background-color: #0a3f7d;
+    min-height:100vh;
+}
+
+.firstWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    color: white;
+}
+
+.secondChild{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    gap: 30px;
+}
+
+.secondChild li a{
+    color: orangered;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.thirdChild{
+    display: flex;
+    gap: 10px; 
+}
+
+.navButton{
+    background-color:yellow;
+    height:40px;
+    width:60px;
+    border:none;
+    border-radius:25px;
+}
+
+.navButton2{
+    background-color:yellowgreen;
+    height:40px;
+    width:60px;
+    border:none;
+    border-radius:25px;
+}
